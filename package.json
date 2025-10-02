@@ -1,14 +1,32 @@
 {
-  "name": "SimpleQRGenerater",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@skyordi/simple-qr-gen",
+  "version": "0.0.1",
+  "private": true,
+  "description": "This project implements a QR code generator featuring resizing functionality, customizable background and foreground colors, adjustable error correction levels, shape structure modifications, and export capabilities for JPEG and SVG formats",
+  "homepage": "https://github.com/HARUTDOKHOYAN/SimpleQRGenerater#readme",
+  "bugs": {
+    "url": "https://github.com/HARUTDOKHOYAN/SimpleQRGenerater/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HARUTDOKHOYAN/SimpleQRGenerater.git"
+  },
+  "license": "ISC",
+  "author": "SkyOrdy",
+  "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "semantic-relese":"semantic-release"
   },
-  "dependencies": {},
   "devDependencies": {
     "typescript": "^5.5.3"
   },
-  "private": true
+  "files": [
+    "dist"
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
